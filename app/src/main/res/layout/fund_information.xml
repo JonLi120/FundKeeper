@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#E3FDFD">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:background="#69000000">
+        <TextView
+            android:id="@+id/tt"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp" android:paddingLeft="15dp"
+            android:text="基金淨值" android:textSize="18sp" android:textColor="#ffff"/>
+        <TextView
+            android:id="@+id/infor_text1" android:layout_below="@id/tt"
+            android:layout_width="280dp" android:paddingLeft="15dp"
+            android:layout_height="50dp" android:gravity="center_vertical" android:textColor="#26ff00"
+            android:textSize="40sp" />
+        <TextView
+            android:id="@+id/infor_text2"
+            android:layout_width="wrap_content" android:paddingLeft="20dp"
+            android:layout_height="40dp" android:layout_below="@id/infor_text1"
+            android:textSize="26sp" android:textColor="#27ff00"/>
+        <TextView
+            android:id="@+id/infor_text3" android:gravity="bottom" android:layout_marginBottom="2dp"
+            android:layout_width="wrap_content" android:layout_alignParentBottom="true" android:layout_marginRight="10dp"
+            android:layout_height="40dp" android:layout_alignParentRight="true"
+            android:textSize="16sp" android:textColor="#ffffff"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent" android:paddingTop="10dp" android:paddingLeft="10dp"
+                android:layout_height="wrap_content" android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/infor_text4"
+                    android:layout_width="0dp" android:layout_weight="0.3" android:gravity="center"
+                    android:layout_height="match_parent" android:layout_marginRight="10dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/infor_text5"
+                    android:layout_width="0dp" android:layout_weight="0.3" android:gravity="center"
+                    android:layout_height="match_parent" android:layout_marginRight="10dp"
+                     android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/infor_text6"
+                    android:layout_width="0dp" android:layout_weight="0.2" android:gravity="center"
+                    android:layout_height="match_parent" android:layout_marginRight="10dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/infor_text7"
+                    android:layout_width="0dp" android:layout_weight="0.2" android:gravity="center"
+                    android:layout_height="match_parent" android:layout_marginRight="10dp"
+                     android:textSize="16sp" />
+            </LinearLayout>
+            <TableLayout
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" android:layout_marginTop="20dp"
+                android:stretchColumns="*" >
+                <TableRow android:background="#000000">
+                    <TextView
+                        android:layout_width="match_parent" android:gravity="center"
+                        android:layout_height="match_parent" android:background="#78dfdd"
+                        android:layout_marginTop="1dp" android:layout_marginLeft="1dp" android:layout_marginBottom="2dp"
+                        android:text="1月" android:textSize="20sp"/>
+                    <TextView
+                        android:layout_width="match_parent" android:gravity="center"
+                        android:layout_height="match_parent" android:background="#78dfdd"
+                        android:layout_marginTop="1dp" android:layout_marginLeft="1dp" android:layout_marginBottom="2dp"
+                        android:text="3月" android:textSize="20sp"/>
+                    <TextView
+                        android:layout_width="match_parent" android:gravity="center"
+                        android:layout_height="match_parent" android:background="#78dfdd"
+                        android:layout_marginTop="1dp" android:layout_marginLeft="1dp" android:layout_marginBottom="2dp"
+                        android:text="6月" android:textSize="20sp"/>
+                    <TextView
+                        android:layout_width="match_parent" android:gravity="center"
+                        android:layout_height="match_parent" android:background="#78dfdd"
+                        android:layout_marginTop="1dp" android:layout_marginLeft="1dp" android:layout_marginBottom="2dp"
+                        android:text="1年" android:textSize="20sp"/>
+                    <TextView
+                        android:layout_width="match_parent" android:gravity="center"
+                        android:layout_height="match_parent" android:background="#78dfdd"
+                        android:layout_marginTop="1dp" android:layout_marginLeft="1dp" android:layout_marginBottom="2dp" android:layout_marginRight="1dp"
+                        android:text="3年" android:textSize="20sp"/>
+                </TableRow>
+                <TableRow android:background="#000000">
+                    <TextView android:id="@+id/infor_text8"
+                        android:layout_width="match_parent" android:gravity="center"
+                        android:layout_height="match_parent" android:background="#E3FDFD"
+                        android:layout_marginLeft="1dp" android:layout_marginBottom="1dp"
+                        android:textSize="16sp"/>
+                    <TextView android:id="@+id/infor_text9"
+                        android:layout_width="match_parent" android:gravity="center"
+                        android:layout_height="match_parent" android:background="#E3FDFD"
+                        android:layout_marginLeft="1dp" android:layout_marginBottom="1dp"
+                        android:textSize="16sp"/>
+                    <TextView android:id="@+id/infor_text10"
+                        android:layout_width="match_parent" android:gravity="center"
+                        android:layout_height="match_parent" android:background="#E3FDFD"
+                        android:layout_marginLeft="1dp" android:layout_marginBottom="1dp"
+                        android:textSize="16sp"/>
+                    <TextView android:id="@+id/infor_text11"
+                        android:layout_width="match_parent" android:gravity="center"
+                        android:layout_height="match_parent" android:background="#E3FDFD"
+                        android:layout_marginLeft="1dp" android:layout_marginBottom="1dp"
+                        android:textSize="16sp"/>
+                    <TextView android:id="@+id/infor_text12"
+                        android:layout_width="match_parent" android:gravity="center"
+                        android:layout_height="match_parent" android:background="#E3FDFD"
+                        android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:layout_marginRight="1dp"
+                        android:textSize="16sp"/>
+                </TableRow>
+            </TableLayout>
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/chart_line"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_gravity="center_horizontal" android:layout_marginTop="12dp"/>
+
+            <LinearLayout
+                android:layout_width="340dp" android:layout_marginTop="15dp"
+                android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+                android:orientation="vertical" android:background="#866000">
+                <TextView android:id="@+id/infor_text13"
+                    android:layout_width="338dp" android:gravity="center" android:background="#ffdb7f"
+                    android:layout_height="match_parent"  android:paddingLeft="10dp" android:paddingRight="10dp"
+                    android:layout_marginLeft="1dp" android:layout_marginRight="1dp" android:layout_marginTop="1dp"
+                    android:textSize="16sp" android:textColor="#000000"/>
+                <TableLayout android:id="@+id/infor_table"
+                    android:layout_width="340dp" android:layout_height="wrap_content"
+                    android:stretchColumns="*" android:layout_gravity="center_horizontal">
+                    <TableRow >
+                        <TextView
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:background="#E3FDFD" android:gravity="center" android:layout_marginBottom="1dp"
+                            android:layout_marginTop="1dp" android:layout_marginLeft="1dp"
+                            android:text="日期" android:textSize="14sp"  android:textColor="#000000"/>
+                        <TextView
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:background="#E3FDFD" android:gravity="center" android:layout_marginBottom="1dp"
+                            android:layout_marginTop="1dp" android:layout_marginLeft="1dp"
+                            android:text="淨值" android:textSize="14sp"  android:textColor="#000000"/>
+                        <TextView
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:background="#E3FDFD" android:gravity="center" android:layout_marginBottom="1dp"
+                            android:layout_marginTop="1dp" android:layout_marginLeft="1dp" android:layout_marginRight="1dp"
+                            android:text="漲跌幅" android:textSize="14sp" android:textColor="#000000"/>
+                    </TableRow>
+
+                </TableLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

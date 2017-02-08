@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:isScrollContainer="true"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbars="vertical"
+    android:orientation="horizontal">
+    <!-- isScrollContainer   设置当前View为滚动容器
+        scrollbarAlwaysDrawVerticalTrack      设置是否始终显示垂直滚动条-->
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:visibility="gone">
+    </ImageView>
+    <RelativeLayout
+        android:id="@+id/viewflow_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/viewflow_text"
+            android:layout_width="wrap_content" android:layout_marginRight="15dp"
+            android:layout_height="wrap_content" android:paddingLeft="15dp"
+            android:textSize="18sp" android:textColor="#ffff"/>
+        <TextView
+            android:id="@+id/viewflow_text1" android:layout_below="@id/viewflow_text"
+            android:layout_width="wrap_content" android:paddingLeft="15dp" android:layout_marginTop="-20dp"
+            android:layout_height="50dp" android:gravity="top"
+            android:textSize="40sp"/>
+        <TextView
+            android:id="@+id/viewflow_text2"
+            android:layout_width="wrap_content" android:layout_below="@id/viewflow_text"
+            android:layout_height="wrap_content" android:layout_toRightOf="@id/viewflow_text1"  android:layout_marginTop="-5dp"
+            android:textSize="26sp" android:gravity="center"/>
+        <TextView
+            android:id="@+id/viewflow_text3" android:gravity="bottom|right" android:layout_marginBottom="4dp" android:layout_below="@id/viewflow_text1"
+            android:layout_width="wrap_content" android:layout_marginRight="30dp"
+            android:layout_height="wrap_content" android:layout_alignParentRight="true"
+            android:textSize="16sp" android:textColor="#ffffff"/>
+    </RelativeLayout>
+</LinearLayout>

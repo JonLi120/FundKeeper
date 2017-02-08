@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView android:id="@+id/ad_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" android:layout_marginBottom="10dp"
+        android:text="新增帳本" android:textSize="40sp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:orientation="vertical">
+            <TableLayout
+                android:id="@+id/ad_plus_layout1"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:stretchColumns="*" android:visibility="gone">
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp" android:layout_weight="0.35"
+                        android:layout_height="wrap_content"
+                        android:text="帳戶名稱：" android:textSize="20sp"/>
+                    <EditText android:id="@+id/ad_edit_name"
+                        android:layout_width="0dp" android:layout_weight="0.65"
+                        android:layout_height="wrap_content"
+                        android:maxLength="10" android:textSize="20sp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp" android:layout_weight="0.35"
+                        android:layout_height="wrap_content"
+                        android:text="備註：" android:textSize="20sp"/>
+                    <EditText android:id="@+id/ad_edit_remarks"
+                        android:layout_width="0dp" android:layout_weight="0.65"
+                        android:layout_height="wrap_content"
+                        android:maxLength="10" android:textSize="20sp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView android:id="@+id/ad_text_cash"
+                        android:layout_width="0dp" android:layout_weight="0.35"
+                        android:layout_height="wrap_content"
+                        android:text="初始金額：" android:textSize="20sp"/>
+                    <EditText android:id="@+id/ad_edit_cash"
+                        android:layout_width="0dp" android:layout_weight="0.65"
+                        android:layout_height="wrap_content"
+                        android:maxLength="9" android:inputType="number" android:textSize="20sp"/>
+                </TableRow>
+            </TableLayout>
+            <TableLayout android:id="@+id/ad_plus_layout2"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:stretchColumns="*" android:visibility="visible" android:focusable="true"
+                android:focusableInTouchMode="true">
+                <TableRow>
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="0.35" android:text="類別：" android:textSize="20sp"/>
+                    <Spinner android:id="@+id/ad_spinner_class"
+                        android:layout_width="0dp" android:layout_height="40dp" android:layout_weight="0.65"
+                        android:spinnerMode="dropdown"/>
+                </TableRow>
+                <TableRow>
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="0.35" android:text="帳戶：" android:textSize="20sp"/>
+                    <Spinner android:id="@+id/ad_spinner_account"
+                        android:layout_width="0dp" android:layout_height="40dp" android:layout_weight="0.65"
+                        android:spinnerMode="dropdown"/>
+                </TableRow>
+                <TableRow>
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="0.35" android:text="日期：" android:textSize="20sp"/>
+                    <EditText android:id="@+id/ad_edit_date"
+                        android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.65"/>
+                </TableRow>
+                <TableRow>
+                    <TextView android:id="@+id/ad_text_whomoney"
+                        android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="0.35" android:text="金額：" android:textSize="20sp"/>
+
+                    <EditText android:id="@+id/ad_edit_whomoney"
+                        android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.65"
+                        android:maxLength="8" android:inputType="number" android:textSize="20sp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView android:id="@+id/ad_text_fundname"
+                        android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="0.35" android:text="基金名稱：" android:textSize="20sp"/>
+                    <EditText android:id="@+id/ad_edit_fundname"
+                        android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.65"
+                        android:maxLength="55" android:textSize="20sp"/>
+                    <Spinner android:id="@+id/ad_spinner_fundname"
+                        android:layout_width="0dp" android:layout_height="40dp" android:layout_weight="0.65"
+                        android:spinnerMode="dropdown" android:visibility="gone"/>
+                    <AutoCompleteTextView
+                        android:id="@+id/ad_auto_fundname"
+                        android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.65"/>
+
+                </TableRow>
+                <TableRow>
+                    <TextView android:id="@+id/ad_text_unit"
+                        android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="0.35" android:text="單位數：" android:textSize="20sp"/>
+                    <EditText android:id="@+id/ad_edit_unit"
+                        android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.65"
+                        android:maxLength="6" android:inputType="number"/>
+                </TableRow>
+                <TableRow>
+                    <TextView android:id="@+id/ad_text_price"
+                        android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="0.35" android:text="單位價格：" android:textSize="20sp"/>
+                    <EditText android:id="@+id/ad_edit_price"
+                        android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.65"
+                        android:maxLength="5" android:digits="0123456789." android:textSize="20sp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView android:id="@+id/ad_text_free"
+                        android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="0.35" android:text="手續費：" android:textSize="20sp"/>
+                    <EditText android:id="@+id/ad_edit_free"
+                        android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.65"
+                        android:maxLength="4" android:inputType="number" android:textSize="20sp"/>
+                </TableRow>
+            </TableLayout>
+            <LinearLayout android:id="@+id/ad_plus_layout3"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent" android:gravity="center_vertical"
+                    android:layout_height="40dp" android:text="從" android:textSize="20sp" />
+                <Spinner android:id="@+id/ad_spinner_account2"
+                    android:layout_width="match_parent" android:layout_height="40dp"/>
+                <TextView
+                    android:layout_width="match_parent" android:gravity="center_vertical"
+                    android:layout_height="40dp" android:text="轉到" android:textSize="20sp" />
+                <Spinner android:id="@+id/ad_spinner_account3"
+                    android:layout_width="match_parent" android:layout_height="40dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent" android:layout_marginTop="5dp"
+                    android:layout_height="wrap_content" android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp" android:layout_weight="0.35"
+                        android:layout_height="40dp" android:text="轉帳金額：" android:textSize="20sp" />
+                    <EditText android:id="@+id/ad_edit_transfer"
+                        android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.65"
+                        android:maxLength="9" android:inputType="number" android:textSize="20sp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent" android:layout_marginTop="5dp"
+                    android:layout_height="wrap_content" android:orientation="horizontal">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="0.35" android:text="日期：" android:textSize="20sp"/>
+                    <EditText android:id="@+id/ad_edit_date2"
+                        android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.65"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|bottom" android:layout_marginTop="20dp">
+        <Button android:id="@+id/ad_btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="取消" android:textSize="20sp"/>
+        <Button android:id="@+id/ad_btn_add"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/ad_btn_cancel" android:layout_marginLeft="20dp"
+            android:text="新增" android:textSize="20sp"/>
+    </RelativeLayout>
+</LinearLayout>

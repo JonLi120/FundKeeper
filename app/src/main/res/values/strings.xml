@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Fundkeeper</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="sp_internal_company">
+        <item>大華銀投信</item><item>中國信託投信</item><item>元大投信</item><item>日盛投信</item><item>台新投信</item><item>未來資產投信</item><item>永豐投信</item><item>兆豐國際投信</item>
+        <item>合作金庫投信</item><item>安聯投信</item><item>宏利投信</item><item>貝萊德投信</item><item>保德信投信</item><item>施羅德投信</item><item>柏瑞投信</item><item>國泰投信</item>
+        <item>康和期經</item><item>第一金投信</item><item>統一投信</item><item>野村投信</item><item>凱基投信</item><item>富邦投信</item><item>富達投信</item><item>富蘭克林華美投信</item>
+        <item>復華投信</item><item>惠理康和投信</item><item>景順投信</item><item>華南永昌投信</item><item>華頓投信</item><item>匯豐中華投信</item><item>新光投信</item><item>瑞銀投信</item>
+        <item>群益投信</item><item>德信投信</item><item>德銀遠東投信</item><item>摩根投信</item><item>聯邦投信</item><item>聯博投信</item><item>瀚亞投信</item><item>寶富期信</item>
+    </string-array>
+    <string-array name="sp_overseas_company">
+        <item>Aberdeen安本資產管理</item><item>Allianz Global Investors GmbH</item><item>Amundi Luxembourg S.A.</item><item>Carmignac Gestion Luxembourg S.A.</item><item>GAM Star基金</item><item>JF印度管理有限公司</item><item>KBI都伯林有限公司</item><item>MG Investment Funds(1)</item><item>MG Investment Funds(3)</item><item>MFS Investment Management Company (Lux) S.ar.l</item><item>Nasdaq-Amex 投資</item><item>NN投資夥伴</item><item>PIMCO資產管理</item><item>PowerShares Capital Management</item><item>ProShares Advisors LLC</item><item>State Street Global Advisors. </item><item>上投摩根資產管理(香港)有限公司</item><item>中銀國際英國保誠資產管理有限公司</item>
+        <item>天利(盧森堡)有限公司</item><item>天利投資專業基金</item><item>天達資產管理有限公司</item><item>日本不動產投資公司</item><item>日本建築基金公司</item><item>木星全球系列</item><item>木星單位信託管理有限公司</item><item>比利時聯合資產管理公司</item>
+        <item>未來資產環球『搜‧選』系列</item><item>先鋒管理公司</item><item>先機環球基金</item><item>安盛環球基金管理公司</item><item>安義基金管理有限公司</item><item>安聯環球投資</item><item>百能投資有限公司</item><item>百達資產管理</item><item>亨德森資產管理公司</item><item>利安資金管理有限公司</item><item>宏利資產管理國際控股有限公司</item><item>貝萊德</item>
+        <item>法國巴黎投資盧森堡公司</item><item>法儲銀(都柏林)國際基金I</item><item>法儲銀(盧森堡)國際基金I</item><item>泓富資產管理</item><item>保德信投資管理公司</item><item>南方東英資產管理有限公司</item>
+        <item>施羅德投資</item><item>施羅德投資管理(香港)有限公司</item><item>柏瑞投資愛爾蘭有限公司</item><item>美盛投資(歐洲)有限公司</item>
+        <item>英傑華投資盧森堡有限公司</item><item>首域投資(香港)有限公司</item><item>紐約梅隆環球基金公司</item><item>高盛資產管理國際公司</item>
+        <item>英傑華投資盧森堡有限公司</item><item>首域投資(香港)有限公司</item><item>紐約梅隆環球基金公司</item><item>高盛資產管理國際公司</item>
+        <item>富蘭克林坦伯頓基金集團</item><item>普信(盧森堡)系列基金</item><item>景順投資管理亞洲有限公司</item><item>華夏基金(香港)有限公司</item>
+        <item>越秀資產管理</item><item>匯豐投資基金（盧森堡）股份有限公司</item><item>愛德蒙得洛希爾資產管理公司(法國)</item><item>新加坡大華資產管理公司</item>
+        <item>瑞士及環球資產管理公司</item><item>瑞士信貸資產管理</item><item>瑞士寶盛基金</item><item>瑞意銀行</item>
+        <item>瑞萬通博管理股份有限公司</item><item>瑞銀 (盧森堡) 股票基金公司</item><item>瑞銀 (盧森堡) 債券基金公司</item><item>瑞銀 (盧森堡) 債券基金公司</item>
+        <item>瑞銀 (盧森堡) 精選管理基金公司</item><item>瑞銀股票基金管理股份有限公司</item><item>瑞銀基金管理 (瑞士) 股份有限公司</item><item>瑞銀貨幣市場基金管理股份有限公司</item>
+        <item>瑞銀策略基金管理股份有限公司</item><item>瑞銀債券基金管理股份有限公司</item><item>瑞銀新興市場基金管理股份有限公司</item><item>瑞聯私人銀行</item>
+        <item>資本國際投資組合</item><item>資本國際基金</item><item>路博邁投資基金</item><item>道富環球投資</item>
+        <item>領匯管理有限公司</item><item>德意志資產管理公司</item><item>摩根士丹利投資管理公司</item><item>摩根基金(亞洲)有限公司</item>
+        <item>摩根資產管理(歐洲)有限公司</item><item>歐義銳榮資產管理公司</item><item>鋒裕資產管理公司</item><item>聯博(盧森堡)公司</item>
+        <item>駿利資產管理國際有限公司</item><item>瀚亞投資(盧森堡)股份有限公司</item><item>羅素投資集團</item><item>霸菱</item>
+    </string-array>
+    <string-array name="sp_internal_class">
+        <item>國內股票開放型指數型</item><item>國內股票開放型科技類</item><item>國內股票開放型中小型</item><item>國內股票開放型一般股票型</item><item>國內股票開放型中概股型</item><item>國內股票開放型價值型</item>
+        <item>國內股票開放型上櫃股票型</item><item>跨國投資股票型全球市場</item><item>跨國投資股票型區域型</item><item>跨國投資股票型單一國家</item><item>跨國投資指數型</item><item>股票債券平衡型一般股票型</item>
+        <item>股票債券平衡型價值型股票型</item><item>股票債券平衡型跨國投資型</item><item>股票債券平衡型模組操作型</item><item>債券型海外債券型</item><item>債券型國內固定收益型</item><item>貨幣市場型</item><item>全球組合型股票型</item>
+        <item>全球組合型債券型</item><item>全球組合型平衡型</item><item>全球組合型其他</item><item>期貨型</item><item>保本型</item><item>不動產證券化型</item><item>金融資產證券化型</item>
+    </string-array>
+    <string-array name="sp_overseas_class">
+        <item>REIT</item><item>中小型股</item><item>公司債券</item><item>公共事業股</item><item>天然資源</item><item>水資源</item><item>可轉換債券</item><item>市政債券</item><item>市場指數</item><item>平衡型</item><item>必需性消費股</item>
+        <item>抗通膨債券</item><item>其他</item><item>固定收益</item><item>房地產</item><item>股票型</item><item>金融股</item><item>非必需消費股</item><item>指數型股票</item><item>原物料</item><item>能源</item><item>高收益債</item>
+        <item>健康護理股</item><item>貨幣型</item><item>短期債券</item><item>貴重金屬</item><item>債券型</item><item>新能源</item><item>資訊科技股</item><item>環境生態</item>
+    </string-array>
+    <string-array name="sp_internal_currency">
+        <item>---全部---</item><item>歐元</item><item>美元</item><item>紐幣</item><item>台幣</item><item>澳幣</item><item>南非幣</item><item>人民幣</item>
+    </string-array>
+    <string-array name="sp_overseas_currency">
+        <item>---全部---</item><item>人民幣</item><item>南非幣</item><item>美元</item><item>瑞法郎</item><item>澳幣</item><item>紐幣</item><item>日圓</item><item>歐元</item><item>新幣</item><item>英鎊</item><item>港幣</item><item>台幣</item><item>瑞典幣</item><item>加幣</item>
+    </string-array>
+    <string-array name="sp_performance">
+        <item>---不限---</item><item>報酬率在 -30% 以下</item><item>報酬率在 -30% ~ -15%</item><item>報酬率在 -15% ~ 0%</item><item>報酬率在 0% ~ 5%</item><item>報酬率在 5% ~ 10%</item><item>報酬率在 10% ~ 15%</item><item>報酬率在 15% ~ 20%</item>
+        <item>報酬率在 20% ~ 25%</item><item>報酬率在 25% ~ 30%</item><item>報酬率在 30% 以上</item>
+    </string-array>
+    <string-array name="sp_internal_area">
+        <item>---全部---</item><item>新興市場</item><item>美國</item><item>亞洲不含日本</item><item>北歐</item><item>歐非中東</item><item>東協</item><item>印度</item><item>非洲</item><item>金磚四國</item><item>歐洲</item><item>新興亞洲</item><item>亞太不含日本</item><item>日本</item><item>俄羅斯</item>
+        <item>台灣</item><item>泰國</item><item>澳洲</item><item>星馬</item><item>全球</item><item>東南亞</item><item>歐元國家</item><item>印尼</item><item>印巴</item><item>歐亞</item><item>北美</item><item>大中華</item><item>南非</item><item>香港</item><item>韓國</item>
+        <item>亞太</item><item>新興歐洲</item><item>拉丁美洲</item><item>巴西</item><item>太平洋地區(含日本)</item><item>亞洲</item><item>大陸</item>
+    </string-array>
+    <string-array name="sp_overseas_area">
+        <item>---全部---</item><item>土耳其</item><item>大中華</item><item>大陸</item><item>中東</item><item>中歐</item><item>太平洋地區(含日本)</item><item>巴西</item><item>日本</item><item>加拿大</item><item>北美</item><item>北歐</item><item>台灣</item>
+        <item>全球</item><item>印尼</item><item>印度</item><item>亞太</item><item>亞太不含日本</item><item>亞洲</item><item>亞洲不含日本</item><item>拉丁美洲</item><item>東協</item><item>法國</item><item>金磚四國</item><item>俄羅斯</item>
+        <item>南歐</item><item>星馬</item><item>美國</item><item>英國</item><item>香港</item><item>泰國</item><item>馬來西亞</item><item>菲律賓</item><item>越南</item><item>新加坡</item><item>新興市場</item><item>新興亞洲</item>
+        <item>新興歐洲</item><item>瑞士</item><item>義大利</item><item>德國</item><item>歐元國家</item><item>歐亞</item><item>歐非中東</item><item>歐洲</item><item>歐洲不含英國</item><item>歐美</item><item>歐盟國家</item><item>澳洲</item><item>韓國</item>
+    </string-array>
+    <string-array name="sp_sharpe">
+        <item>---不限---</item><item>-0.9以下</item><item>-0.9~-0.7</item><item>-0.7~-0.5</item><item>-0.5~-0.3</item><item>-0.3~0.1</item><item>0~0.1</item><item>0.1~0.3</item><item>0.3~0.5</item><item>0.5~0.7</item><item>0.7~0.9</item><item>0.9~1.1</item><item>1.1~1.3</item>
+        <item>1.3~1.5</item><item>1.5以上</item>
+    </string-array>
+    <string-array name="sp_bata">
+        <item>---不限---</item><item>前20%</item><item>前40%</item><item>前60%</item>
+    </string-array>
+</resources>

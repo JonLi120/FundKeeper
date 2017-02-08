@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="國內/境外基金"
+        style="@style/spinnerTxt" />
+
+    <Spinner
+        android:id="@+id/class_sp1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        style="@style/spinner_style">
+    </Spinner>
+
+    <TextView
+        android:id="@+id/class_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="基金類型"
+        style="@style/spinnerTxt" />
+    <Spinner
+        android:id="@+id/class_sp2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        style="@style/spinner_style">
+    </Spinner>
+
+    <Button
+        android:id="@+id/class_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="確定" />
+
+</LinearLayout>
+

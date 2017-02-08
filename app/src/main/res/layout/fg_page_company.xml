@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="國內/境外基金公司"
+        style="@style/spinnerTxt" />
+
+    <Spinner
+        android:id="@+id/company_sp1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        style="@style/spinner_style"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="選擇公司"
+        style="@style/spinnerTxt"
+        android:id="@+id/textView" />
+
+    <Spinner
+        android:id="@+id/company_sp2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        style="@style/spinner_style"/>
+    <Button
+        android:id="@+id/btn_searchcompany"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="確定"/>
+
+</LinearLayout>

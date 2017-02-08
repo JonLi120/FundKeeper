@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- shape指定形狀類型,rectangle:矩形-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- solid 填充色-->
+    <solid android:color="#19000000" />
+
+    <!--corners設置圓角-->
+    <corners android:radius="3dp"/>
+
+    <padding android:left="5dp"
+        android:right="5dp"/>
+
+    <!-- stroke設置邊框 -->
+    <stroke
+        android:width="2dp"
+        android:color="#2B3752"/>
+
+</shape>

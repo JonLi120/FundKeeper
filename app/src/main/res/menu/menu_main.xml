@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:title="About"/>
+
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="300"
+        app:showAsAction="never"
+        android:title="Exit"/>
+
+    <item android:id="@+id/action_search"
+        android:title="search"
+        android:icon="@drawable/ic_nume_search_black"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+
+    <item android:id="@+id/action_update"
+        android:title="action_update"
+        android:icon="@drawable/ic_update"
+        app:showAsAction="always|collapseActionView"/>
+
+    <item android:id="@+id/action_add"
+        android:title="action_plus"
+        android:icon="@drawable/ic_content_plus"
+        app:showAsAction="always|collapseActionView"/>
+</menu>

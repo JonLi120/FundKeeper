@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3FDFD"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HomeMainActivity">
+    <!--滑屏-->
+    <com.jonli.fundkeeper.ViewFlow
+        android:id="@+id/viewflow"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:background="#7f6b6a6a"
+        app:sidebuffer="2"/>
+    <!--圓點指示器-->
+    <com.jonli.fundkeeper.CircleFlowIndicator
+        android:id="@+id/viewflowindicator"
+        android:layout_width="wrap_content"
+        android:layout_height="8dp"
+        android:layout_below="@id/viewflow"
+        android:layout_centerHorizontal="true"
+        app:fadeOut="0"
+        app:inactiveType="fill"
+        app:activeColor="#0084ff"
+        app:inactiveColor="#550631f1"
+        />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/viewflowindicator"
+        android:stretchColumns="*">
+        <TableRow  android:layout_weight="1">
+            <ImageButton
+                android:id="@+id/btn_fund"
+                style="@style/imagebtnlayout"
+                android:src="@drawable/analytics128"/>
+
+            <ImageButton
+                android:id="@+id/btn_list"
+                style="@style/imagebtnlayout"
+                android:src="@drawable/an128"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="基金"
+                style="@style/btnTxt"/>
+            <TextView
+                android:text="清單"
+                style="@style/btnTxt" />
+        </TableRow>
+        <TableRow android:layout_weight="1">
+            <ImageButton
+                android:id="@+id/btn_news"
+                style="@style/imagebtnlayout"
+                android:src="@drawable/text128"/>
+
+            <ImageButton
+                android:id="@+id/btn_fx"
+                style="@style/imagebtnlayout"
+                android:src="@drawable/exchange128"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="新聞"
+                style="@style/btnTxt" />
+            <TextView
+                android:text="換匯"
+                style="@style/btnTxt" />
+        </TableRow>
+        <TableRow android:layout_weight="1">
+            <ImageButton
+                android:id="@+id/btn_account"
+                style="@style/imagebtnlayout"
+                android:src="@drawable/note128"/>
+
+            <ImageButton
+                android:id="@+id/btn_dream"
+                style="@style/imagebtnlayout"
+                android:src="@drawable/plane128"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="記帳"
+                style="@style/btnTxt" />
+            <TextView
+                android:text="計畫"
+                style="@style/btnTxt" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/acc_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="基金帳本（預設）"
+        android:textSize="24sp" android:textStyle="bold"
+        android:gravity="center_vertical"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content" android:layout_marginLeft="15dp"
+            android:layout_height="match_parent" android:gravity="center_vertical"
+            android:text="基金市值：" android:textSize="20sp"/>
+        <TextView  android:id="@+id/acc_item_txt1"
+            android:layout_width="match_parent" android:layout_marginRight="15dp"
+            android:layout_height="match_parent" android:gravity="center_vertical|right"
+            android:text="$1,000,000" android:textSize="20sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content" android:layout_marginLeft="15dp"
+            android:layout_height="match_parent" android:gravity="center_vertical"
+            android:text="基金浮虧：" android:textSize="20sp"/>
+        <TextView  android:id="@+id/acc_item_txt2"
+            android:layout_width="match_parent" android:layout_marginRight="15dp"
+            android:layout_height="match_parent" android:gravity="center_vertical|right"
+            android:text="$50,000" android:textSize="20sp" android:textColor="#000000"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content" android:layout_marginLeft="15dp"
+            android:layout_height="match_parent" android:gravity="center_vertical"
+            android:text="現金結餘：" android:textSize="20sp"/>
+        <TextView  android:id="@+id/acc_item_txt3"
+            android:layout_width="match_parent" android:layout_marginRight="15dp"
+            android:layout_height="match_parent" android:gravity="center_vertical|right"
+            android:text="$290,000" android:textSize="20sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content" android:layout_marginLeft="15dp"
+            android:layout_height="match_parent" android:gravity="center_vertical"
+            android:text="帳戶結餘：" android:textSize="20sp" android:textStyle="bold"/>
+        <TextView  android:id="@+id/acc_item_txt4"
+            android:layout_width="match_parent" android:layout_marginRight="15dp"
+            android:layout_height="match_parent" android:gravity="center_vertical|right"
+            android:text="$1,240,000" android:textSize="20sp" android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

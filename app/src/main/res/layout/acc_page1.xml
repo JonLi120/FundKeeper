@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/acc_page_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="160dp" android:maxHeight="35dp"
+            android:layout_marginTop="10dp" android:layout_marginLeft="15dp"
+            android:text="帳戶名稱" android:textSize="20sp"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/pie_chart"
+            android:layout_toRightOf="@+id/acc_page_text"
+            android:layout_marginTop="5dp" android:layout_marginLeft="5dp"/>
+
+        <LinearLayout
+            android:id="@+id/acc_llayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true"
+            android:background="#3cff00"
+            android:layout_marginTop="5dp" android:layout_marginRight="15dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_up"
+                android:layout_gravity="center_vertical"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14.02%" android:textColor="#ffffff"
+                android:textSize="24sp" android:textStyle="bold"
+                android:layout_marginRight="5dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/acc_llayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="0dp" android:layout_weight="0.25"
+            android:layout_height="wrap_content" android:gravity="center"
+            android:text="平均買價" android:textSize="18sp"/>
+        <TextView
+            android:layout_width="0dp" android:layout_weight="0.25"
+            android:layout_height="wrap_content" android:gravity="center"
+            android:text="總單位量" android:textSize="18sp"/>
+        <TextView
+            android:layout_width="0dp" android:layout_weight="0.25"
+            android:layout_height="wrap_content" android:gravity="center"
+            android:text="基金現值" android:textSize="18sp"/>
+        <TextView
+            android:layout_width="0dp" android:layout_weight="0.25"
+            android:layout_height="wrap_content" android:gravity="center"
+            android:text="盈虧" android:textSize="18sp"/>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/acc_list1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/acc_pie2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+</LinearLayout>
