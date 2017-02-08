@@ -9,7 +9,7 @@
 ![截圖](https://github.com/JonLi120/FundKeeper/blob/master/screenshot/fundkeeper_screenshot(1).png)
 ![截圖](https://github.com/JonLi120/FundKeeper/blob/master/screenshot/fundkeeper_screenshot(2).png)
 ###二、APK下載
-      下載連結 >>>[點擊下載APK](https://dl.dropboxusercontent.com/u/98468964/app-debug.apk)
+下載連結 >>>[點擊下載APK](https://dl.dropboxusercontent.com/u/98468964/app-debug.apk)
 ###三、主要技術框架
 1. 網頁解析：Jsoup
 2. 數據存取：SQLite
