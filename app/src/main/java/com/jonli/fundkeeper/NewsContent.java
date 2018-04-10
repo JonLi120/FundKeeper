@@ -89,19 +89,20 @@ public class NewsContent extends Fragment{
                 for (int i = 0 ;i<div.size();i++)
                     Log.e("News Debug","i = "+i+" "+div.get(i).text());
 
-                title = div.get(76).text();
+                title = div.get(38).text();
 //                Elements date = div.get(76).select("span#ctl00_ctl00_MainContent_Contents_lbTitle");
 //                datetime = date.get(0).text();
-                Elements p = div.get(82).select("P");
+                Elements p = div.get(42).select("P");
+
                 if (p.size() <= 1){
-                    Elements a = div.get(82).select("article");
+                    Elements a = div.get(42).select("article");
                     txt = a.get(0).text();
                 }else{
-                    for (int i = 1 ; i < p.size() ; i++){
-                        txt = txt + p.get(i).text()+"\n\n";
+                    for (int i = 1 ; i <= p.size() ; i++){
+                        txt = txt + p.get(i-1).text()+"\n\n";
                     }
                 }
-                Elements img = div.get(82).select("IMG");
+                Elements img = div.get(42).select("IMG");
                 if (img.size() != 0){
                     imgurl = img.get(0).attr("src");
                     bmp = getImgUrl(imgurl);

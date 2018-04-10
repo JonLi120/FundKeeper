@@ -6,8 +6,7 @@
     android:scrollbarAlwaysDrawVerticalTrack="true"
     android:scrollbars="vertical"
     android:orientation="horizontal">
-    <!-- isScrollContainer   设置当前View为滚动容器
-        scrollbarAlwaysDrawVerticalTrack      设置是否始终显示垂直滚动条-->
+
     <ImageView
         android:id="@+id/imgView"
         android:layout_width="match_parent"
@@ -26,7 +25,7 @@
             android:textSize="18sp" android:textColor="#ffff"/>
         <TextView
             android:id="@+id/viewflow_text1" android:layout_below="@id/viewflow_text"
-            android:layout_width="wrap_content" android:paddingLeft="15dp" android:layout_marginTop="-20dp"
+            android:layout_width="wrap_content" android:paddingLeft="15dp" android:layout_marginTop="-10dp"
             android:layout_height="50dp" android:gravity="top"
             android:textSize="40sp"/>
         <TextView
